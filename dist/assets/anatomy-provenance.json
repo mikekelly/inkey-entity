@@ -1,0 +1,31 @@
+{
+  "source": "BodyParts3D / Anatomography 4.3",
+  "copyright": "The Database Center for Life Science (DBCLS)",
+  "license": "CC BY-SA 2.1 Japan",
+  "licenseURL": "https://creativecommons.org/licenses/by-sa/2.1/jp/",
+  "sourceURL": "https://lifesciencedb.jp/bp3d/",
+  "mirror": "https://github.com/olivercase/body_parts_3d_api",
+  "parts": [
+    "FJ6309_BP23248_FMA52740_Ethmoid.obj",
+    "FJ6310_BP22997_FMA52734_Frontal bone.obj",
+    "FJ6376_BP23042_FMA53646_Left lacrimal bone.obj",
+    "FJ6380_BP23755_FMA53650_Left maxilla.obj",
+    "FJ6383_BP23333_FMA53648_Left nasal bone.obj",
+    "FJ6384_BP23315_FMA53656_Left palatine bone.obj",
+    "FJ6385_BP23158_FMA52789_Left parietal bone.obj",
+    "FJ6391_BP23760_FMA52739_Left temporal bone.obj",
+    "FJ6397_BP23337_FMA52893_Left zygomatic bone.obj",
+    "FJ6399_BP22817_FMA52748_Mandible.obj",
+    "FJ6411_BP23972_FMA52735_Occipital bone.obj",
+    "FJ6465_BP23129_FMA53645_Right lacrimal bone.obj",
+    "FJ6468_BP23661_FMA53649_Right maxilla.obj",
+    "FJ6470_BP23260_FMA53647_Right nasal bone.obj",
+    "FJ6471_BP24091_FMA53655_Right palatine bone.obj",
+    "FJ6472_BP23064_FMA52788_Right parietal bone.obj",
+    "FJ6478_BP23685_FMA52738_Right temporal bone.obj",
+    "FJ6483_BP23110_FMA52892_Right zygomatic bone.obj",
+    "FJ6485_BP23082_FMA52736_Sphenoid bone.obj",
+    "FJ6486_BP22288_FMA9710_Vomer.obj"
+  ],
+  "modifications": "Selected cranial and facial bones and mandible only; omitted all tooth meshes. Rotated, centred, scaled and converted to interleaved binary position/normal geometry. Runtime materials and audio deformation are artistic modifications. Derived geometry remains CC BY-SA 2.1 Japan. Version 006 also clusters vertices into simplified triangular facets, computes flat normals and animates facet separation. Faceted geometry retains CC BY-SA 2.1 Japan."
+}
